@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Lexend:wght@100..900&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200..900&display=swap');
+
+:root{
+
+    --azul:#205ED9;
+    --cinza:rgb(128, 125, 125);
+    --preto:rgb(32, 32, 32);
+    --roxoClaro:#666FEF;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* cabeçalho*/
+
+body{
+    font-family: 'Poppins';
+    background-image: linear-gradient(
+    140deg,
+    hsl(296deg 89% 93%) 0%,
+    hsl(284deg 90% 94%) 14%,
+    hsl(271deg 91% 95%) 23%,
+    hsl(258deg 92% 96%) 30%,
+    hsl(246deg 94% 97%) 36%,
+    hsl(233deg 97% 98%) 41%,
+    hsl(227deg 100% 98%) 45%,
+    hsl(227deg 100% 98%) 49%,
+    hsl(227deg 100% 98%) 52%,
+    hsl(227deg 100% 98%) 55%,
+    hsl(227deg 100% 98%) 58%,
+    hsl(227deg 100% 98%) 61%,
+    hsl(222deg 100% 97%) 63%,
+    hsl(218deg 100% 96%) 66%,
+    hsl(213deg 100% 94%) 68%,
+    hsl(209deg 100% 93%) 70%,
+    hsl(204deg 100% 92%) 72%,
+    hsl(210deg 99% 91%) 75%,
+    hsl(228deg 97% 92%) 77%,
+    hsl(245deg 96% 92%) 80%,
+    hsl(262deg 94% 92%) 83%,
+    hsl(279deg 92% 92%) 88%,
+    hsl(296deg 89% 93%) 100%
+  );
+  height: 100vh;
+
+}
+
+header{
+    margin: 10px;
+    display: flex;
+}
+
+nav{
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-header{
+    margin-left: 10px;
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--azul);
+    color: white;
+    cursor: pointer;
+    font-family: 'Poppins';
+    
+}
+
+a{
+    margin-left: 35px ;
+    text-decoration: none;
+    color: var(--preto);
+    
+}
+
+svg{
+    margin-top:10px ;
+}
+
+
+/* conteúdo */
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    width: 650px;
+    height: 550px;
+    margin-right: 50px;
+    
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.impulsione{
+    color: var(--roxoClaro);
+    font-weight: 500;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-1{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--azul);
+    color: white;
+    margin-right: 15px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-2{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: solid 3px var(--azul);
+    cursor: pointer;
+    color: var(--azul);
+    font-family: 'Poppins';
+    font-size:16px;
+    font-weight: 600;
+
+}
+
+/* sessão imagem */
+
+.box-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    width: 500px;
+    height:400px;
+}
+
+
+img{
+    image-rendering: pixelated;
+    width: 540px;
+}
+  
